@@ -1,5 +1,8 @@
 -- Descripción
 Compilador realizado para la clase de Arquitectura de computadores. Fue diseñado para el computador de propósito general hecho en clase. Convierte un programa en lenguaje ensamblador a binario (realmente a hexadecimal, porque se usa para un proyecto en ISE). 
+Se hizo tomando como ejemplo el siguiente tutorial: 
+  https://blog.usejournal.com/writing-your-own-programming-language-and-compiler-with-python-a468970ae6df
+En el cual se hace uso de la biblioteca rply  
 
 --USO
 Desde la línea de comandos escribir
