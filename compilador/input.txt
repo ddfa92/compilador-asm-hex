@@ -1,0 +1,25 @@
+	INPAC	
+	
+	STOD	A
+	LOCO	5
+	
+	STOD	CINCO
+	
+	
+	
+	
+	
+	%%hola holas
+	LODD	A
+	
+	SUBD	CINCO
+	JNZE	@ELSE1
+	LOCO	8
+	
+	STOD	B
+	JUMP	@ENDIF1
+@ELSE1	LOCO	13
+	%esto sera ignorado
+	STOD	B
+@ENDIF1	OUTAC	%esto sera ignorado
+	HALT 
